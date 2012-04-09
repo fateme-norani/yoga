@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;	
+}
+
+body{
+	/*background-image:url(images/backgrond1.png);*/
+}
+h1,h2,h3,h4,p{
+	font-family:Tahoma, Geneva, sans-serif;
+	direction:rtl;
+	text-align:right;	
+}
+
+h3{
+	color:#888;	
+}
+
+h4{
+	color:#003366;
+	text-shadow:2px 2px 3px #FFFFFF;
+	padding-right:20px;	
+}
+
+p.copyrighte{
+	color:#003366;
+	text-shadow:2px 2px 3px #FFFFFF;
+	text-align:left;
+	direction:ltr;
+	font-size:14px;	
+}
+
+p.paragraf{
+	margin:10px 5px;
+	color:#fff;
+	font-size:16px;	
+	font-weight:600;
+	text-shadow:2px 2px 3px #333333;	
+}
+/*div{
+	outline:1px dashed red;	
+}
+
+div div{
+	outline:1px dashed #00CC00;	
+}
+
+div div div{
+	outline:1px dashed #333333;		
+}
+
+div div div div{
+	outline:1px dashed #990000;		
+}
+
+div div div div div{
+	outline:1px dashed #CCFF00;		
+}*/
+
+div.right{
+	float:right;	
+}
+
+div.left{
+	float:left;	
+}
+/* topheder------------------------------------------------------*/
+
+div.continer-topheder{
+	width:auto;
+	min-height:125px;
+	margin-top:3px;
+}
+
+div.continer-topheder div.topheder{
+	width:980px;
+	min-height:inherit;
+	margin:0 auto;
+	padding:1px;
+	position:relative;	
+}
+
+div.continer-topheder div.topheder div.right{
+	width:220px;
+	min-height:92px;
+	margin:5px 20px;
+	background-image:url(images/logo3.png);
+}
+
+div.continer-topheder div.topheder div.left{
+	width:200px;
+	min-height:80px;
+	margin:30px 35px;
+	background-image:url(images/bg-serch.png);
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+div.continer-topheder div.topheder div.left input[type=text]{
+	border:none;
+	width:120px;
+	height:29px;
+	background:none;
+	margin-left:17px;
+	margin-top:15px;
+}
+
+div.continer-topheder div.topheder div.left input[type=text]:focus{
+	border:none;	
+}
+
+div.continer-topheder div.topheder div.left input[type=button]{
+	position:absolute;	
+	top:17px;
+	right:29px;
+	background-image:url(images/search-icon.png);
+	width:27px;
+	height:28px;
+	border:none;
+	cursor:pointer;
+}
+div.continer-topheder div.topheder div.midel{
+	min-height:38px;
+	margin-left:190px;
+	margin-right:300px;
+	margin-top:43px;
+}
+
+div.continer-topheder div.topheder div.menu{
+	width:963px;
+	min-height:98px;
+	position:absolute;
+	left:10px;
+	top:95px;
+	z-index:2;
+	background-image:url(images/back-menu.png);
+	background-repeat:no-repeat;
+}
+
+div.continer-topheder div.topheder div.menu ul{
+	list-style-type:none;
+	width:600px;
+	float:right;
+	margin-right:15px;
+}
+
+div.continer-topheder div.topheder div.menu li{
+	float:right;
+	margin-right:2px;
+	margin-top:20px;
+	position:relative;
+}
+div.continer-topheder div.topheder div.menu li a{
+	text-decoration:none;
+	color:#fff;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:22px;
+	direction:rtl;
+	text-align:right;
+	padding:3px 15px;
+	display:block;	
+}
+
+div.continer-topheder div.topheder div.menu li a:hover{
+	opacity:0.7;	
+}
+
+div.continer-topheder div.topheder div.menu li ul{
+	width:auto;	
+	display:none;
+	position:absolute;
+	top:15px;
+	left:-30px;
+}
+
+div.continer-topheder div.topheder div.menu li li{
+	float:none;	
+	border-top:2px solid #630;
+	height:13px;
+}
+
+div.continer-topheder div.topheder div.menu li li a{
+	white-space:nowrap;	
+	background-image:url(images/WoodPlanksPainted0056_2_thumblarge.jpg);
+	color:#663300;
+}
+
+div.continer-topheder div.topheder div.menu li li a:hover{
+	color:#fff;
+	background-image:url(images/WoodFine0020_thumbhuge.jpg);
+	opacity:1;	
+}
+div.continer-topheder div.topheder div.menu li:hover ul{
+	display:block;
+}
+
+div.border{
+	width:auto;
+	height:6px;
+	background-image:url(images/header-bottom-bg.png);
+	z-index:-2;	
+}
+/*end topheder--------------------------------------------------*/
+
+/*heder --------------------------------------------------------*/
+
+div.continer-heder{
+	width:auto;
+	height:500px;
+	background-image:url(images/back-heder-fider2.png);	
+	
+}
+
+div.continer-heder div.heder{
+	width:970px;
+	margin:0 auto;
+	height:inherit;	
+	padding:1px;
+	background-image:url(images/back-heder-fider.png);
+}
+
+div.continer-heder div.heder div.right{
+	width:500px;
+	min-height:inherit;
+}
+
+div.continer-heder div.heder div.right div.top{
+	width:inherit;
+	min-height:290px;
+}
+
+div.continer-heder div.heder div.right div.top div.right{
+	width:146px;
+	min-height:276px;	
+	margin-right:10px;
+	position:relative;
+}
+
+
+div.continer-heder div.heder div.right div.top div.left{
+	width:146px;
+	min-height:276px;
+	margin-left:60px;
+	position:relative;	
+}
+
+div.continer-heder div.heder div.right div.top div.midel{
+	min-height:276px;
+	margin-left:180px;
+	margin-right:150px;	
+	position:relative;
+}
+
+div.continer-heder div.heder div.right div.top div img{
+	position:absolute;
+	top:10px;
+	right:40px;
+	transition:all 1s;	
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-o-transition:all 1s;
+	-ms-transition:all 1s;
+}
+
+div.continer-heder div.heder div.right div.top div img:hover{
+	top:32px;	
+}
+
+div.continer-heder div.heder div.right div.down{
+	width:inherit;
+	min-height:204px;
+	position:relative;
+	overflow:visible;
+}
+
+div.continer-heder div.heder div.right div.down div.news{
+	width:480px;
+	min-height:250px;
+	position:absolute;
+	top:5px;
+	left:0px;
+	z-index:5;	
+	background-image:url(images/bg-news-wood.png);
+	margin:0 auto;
+}
+
+div.continer-heder div.heder div.right div.down div.news div.textnews{
+	width:380px;
+	min-height:170px;
+	margin:40px auto;
+}
+
+/*END heder-----------------------------------------------------=*/
+
+/* content-------------------------------------------------------*/
+
+div.continer-content{
+	width:auto;
+	min-height:250px;	
+	background-color:#fff;	
+}
+
+div.continer-content div.content{
+	width:980px;
+	margin:0 auto;
+	min-height:inherit;
+	padding:1px;		
+}
+
+div.continer-content div.content div.right{
+	width:32px;
+	min-height:195px;
+	margin-top:25px;	
+}
+
+div.continer-content div.content div.left{
+	width:32px;
+	min-height:195px;
+	margin-top:25px;	
+}
+
+div.continer-content div.content div.midel{
+	height:195px;
+	margin-left:37px;
+	margin-right:37px;
+	margin-top:25px;	
+}
+
+div.continer-content div.content div.midel div.slid{
+	width:inherit;
+	height:195px;
+	overflow:hidden;
+	padding:0;
+}
+
+div.continer-content div.content div.midel div.slid div.left{
+	width:210px;
+	height:inherit;	
+	margin-left:15px;
+	margin-top:0;
+}
+div.continer-content div.content div.midel div.slid div.right{
+	width:210px;
+	height:inherit;	
+	margin-left:15px;
+	margin-top:0;
+}
+
+div.continer-content div.content div.midel div.slid div.left:first-child{
+	margin-left:10px;	
+}
+
+/*END content-------------------------------------------------------------*/
+
+/*footer -----------------------------------------------------------------*/
+
+div.continer-footer{
+	width:auto;
+	min-height:60px;
+	background-image:url(images/bg-footer2.png);		
+}
+
+div.continer-footer div.footer{
+	width:980px;
+	margin:0 auto;
+	min-height:inherit;
+	padding:1px;	
+}
+
+div.continer-footer div.footer div.left{
+	min-width:200px;
+	min-height:30px;
+	margin-top:20px;
+	margin-left:50px;	
+}
+/*END footer-------------------------------------------------------------*/
